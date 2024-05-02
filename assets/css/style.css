@@ -823,7 +823,7 @@ hr {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background-color: #6990FF;
+  background-color: #2F2825;
   color: #fff;
   border: none;
   border-radius: 7px;
@@ -3341,6 +3341,11 @@ hr {
   color: #ffffff;
 }
 
+.cs-hero.cs-style1 .banner-btn{
+  display: flex;
+  gap: 20px;
+}
+
 .cs-hero.cs-style1 .cs-hero_img {
 }
 
@@ -3613,6 +3618,11 @@ hr {
   .cs-hero.cs-style1 .cs-hero_subtitle {
     margin-bottom: 25px;
     font-size: 16px;
+  }
+
+  .cs-hero.cs-style1 .banner-btn{
+    align-items: center;
+    justify-content: center;
   }
 
   .cs-hero.cs-style1 .cs-hero_img {
