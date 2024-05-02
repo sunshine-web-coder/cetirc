@@ -4170,6 +4170,10 @@ hr {
   width: 300px;
 }
 
+.footer_inner .left_footer p{
+  max-width: 300px;
+}
+
 .footer_inner .right_footer{
   width: 100%;
   display: flex;
