@@ -3341,9 +3341,14 @@ hr {
   color: #ffffff;
 }
 
-.cs-hero.cs-style1 .banner-btn{
+.banner-btn{
   display: flex;
   gap: 20px;
+}
+
+.banner-btn.s-btn{
+  border: 1px solid red;
+  padding-left: 25px;
 }
 
 .cs-hero.cs-style1 .cs-hero_img {
@@ -3677,7 +3682,7 @@ hr {
   -ms-flex: none;
   flex: none;
   border-radius: 50%;
-  background-color: #6990FF;
+  background-color: #2F2825;
   margin-bottom: 28px;
   -webkit-transition: all .25s linear;
   transition: all .25s linear;
@@ -3707,7 +3712,7 @@ hr {
   -webkit-text-stroke: 1px #52C8C4;
   position: absolute;
   right: 15px;
-  top: 15px;
+  top: 45px;
   opacity: 0.3;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
