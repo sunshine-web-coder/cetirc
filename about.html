@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <!-- Mirrored from thememarch.com/demo/html/posing/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 01 May 2024 10:57:24 GMT -->
+  <!-- Added by HTTrack --><meta
+    http-equiv="content-type"
+    content="text/html;charset=utf-8"
+  /><!-- /Added by HTTrack -->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="ThemeMarch" />
+    <link rel="icon" href="assets/img/favicon.png" />
+    <title>Posing Landing Page</title>
+    <link rel="stylesheet" href="assets/css/plugins/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/plugins/slick.css" />
+    <link rel="stylesheet" href="assets/css/plugins/animate.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/style2.css" />
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script data-pagespeed-no-defer>
+      //<![CDATA[
+      (function () {
+        function f(a, b, d) {
+          if (a.addEventListener) a.addEventListener(b, d, !1);
+          else if (a.attachEvent) a.attachEvent("on" + b, d);
+          else {
+            var c = a["on" + b];
+            a["on" + b] = function () {
+              d.call(this);
+              c && c.call(this);
+            };
+          }
+        }
+        window.pagespeed = window.pagespeed || {};
+        var g = window.pagespeed;
+        function k(a) {
+          this.g = [];
+          this.f = 0;
+          this.h = !1;
+          this.j = a;
+          this.i = null;
+          this.l = 0;
+          this.b = !1;
+          this.a = 0;
+        }
+        function l(a, b) {
+          var d = b.getAttribute("data-pagespeed-lazy-position");
+          if (d) return parseInt(d, 0);
+          var d = b.offsetTop,
+            c = b.offsetParent;
+          c && (d += l(a, c));
+          d = Math.max(d, 0);
+          b.setAttribute("data-pagespeed-lazy-position", d);
+          return d;
+        }
+        function m(a, b) {
+          var d, c, e;
+          if (!a.b && (0 == b.offsetHeight || 0 == b.offsetWidth)) return !1;
+          a: if (b.currentStyle) c = b.currentStyle.position;
+          else {
+            if (
+              document.defaultView &&
+              document.defaultView.getComputedStyle &&
+              (c = document.defaultView.getComputedStyle(b, null))
+            ) {
+              c = c.getPropertyValue("position");
+              break a;
+            }
+            c = b.style && b.style.position ? b.style.position : "";
+          }
+          if ("relative" == c) return !0;
+          e = 0;
+          "number" == typeof window.pageYOffset
+            ? (e = window.pageYOffset)
+            : document.body && document.body.scrollTop
+            ? (e = document.body.scrollTop)
+            : document.documentElement &&
+              document.documentElement.scrollTop &&
+              (e = document.documentElement.scrollTop);
+          d =
+            window.innerHeight ||
+            document.documentElement.clientHeight ||
+            document.body.clientHeight;
+          c = e;
+          e += d;
+          var h = b.getBoundingClientRect();
+          h
+            ? ((e = h.top - d), (c = h.bottom))
+            : ((h = l(a, b)),
+              (d = h + b.offsetHeight),
+              (e = h - e),
+              (c = d - c));
+          return e <= a.f && 0 <= c + a.f;
+        }
+        k.prototype.m = function (a) {
+          p(a);
+          var b = this;
+          window.setTimeout(function () {
+            var d = a.getAttribute("data-pagespeed-lazy-src");
+            if (d)
+              if ((b.h || m(b, a)) && -1 != a.src.indexOf(b.j)) {
+                var c = a.parentNode,
+                  e = a.nextSibling;
+                c && c.removeChild(a);
+                a.c && (a.getAttribute = a.c);
+                a.removeAttribute("onload");
+                a.tagName &&
+                  "IMG" == a.tagName &&
+                  g.CriticalImages &&
+                  f(a, "load", function () {
+                    g.CriticalImages.checkImageForCriticality(this);
+                    b.b &&
+                      (b.a--, b.a || g.CriticalImages.checkCriticalImages());
+                  });
+                a.removeAttribute("data-pagespeed-lazy-src");
+                a.removeAttribute("data-pagespeed-lazy-replaced-functions");
+                c && c.insertBefore(a, e);
+                if ((c = a.getAttribute("data-pagespeed-lazy-srcset")))
+                  (a.srcset = c),
+                    a.removeAttribute("data-pagespeed-lazy-srcset");
+                a.src = d;
+              } else b.g.push(a);
+          }, 0);
+        };
+        k.prototype.loadIfVisibleAndMaybeBeacon = k.prototype.m;
+        k.prototype.s = function () {
+          this.h = !0;
+          q(this);
+        };
+        k.prototype.loadAllImages = k.prototype.s;
+        function q(a) {
+          var b = a.g,
+            d = b.length;
+          a.g = [];
+          for (var c = 0; c < d; ++c) a.m(b[c]);
+        }
+        function t(a, b) {
+          return a.a ? null != a.a(b) : null != a.getAttribute(b);
+        }
+        k.prototype.u = function () {
+          for (
+            var a = document.getElementsByTagName("img"), b = 0, d;
+            (d = a[b]);
+            b++
+          )
+            t(d, "data-pagespeed-lazy-src") && p(d);
+        };
+        k.prototype.overrideAttributeFunctions = k.prototype.u;
+        function p(a) {
+          t(a, "data-pagespeed-lazy-replaced-functions") ||
+            ((a.c = a.getAttribute),
+            (a.getAttribute = function (a) {
+              "src" == a.toLowerCase() &&
+                t(this, "data-pagespeed-lazy-src") &&
+                (a = "data-pagespeed-lazy-src");
+              return this.c(a);
+            }),
+            a.setAttribute("data-pagespeed-lazy-replaced-functions", "1"));
+        }
+        g.o = function (a, b) {
+          function d() {
+            if (!((c.b && a) || c.i)) {
+              var b = 200;
+              200 < new Date().getTime() - c.l && (b = 0);
+              c.i = window.setTimeout(function () {
+                c.l = new Date().getTime();
+                q(c);
+                c.i = null;
+              }, b);
+            }
+          }
+          var c = new k(b);
+          g.lazyLoadImages = c;
+          f(window, "load", function () {
+            c.b = !0;
+            c.h = a;
+            c.f = 200;
+            if (g.CriticalImages) {
+              for (
+                var b = 0, d = document.getElementsByTagName("img"), r = 0, n;
+                (n = d[r]);
+                r++
+              )
+                -1 != n.src.indexOf(c.j) &&
+                  t(n, "data-pagespeed-lazy-src") &&
+                  b++;
+              c.a = b;
+              c.a || g.CriticalImages.checkCriticalImages();
+            }
+            q(c);
+          });
+          b.indexOf("data") && (new Image().src = b);
+          f(window, "scroll", d);
+          f(window, "resize", d);
+        };
+        g.lazyLoadInit = g.o;
+      })();
+
+      pagespeed.lazyLoadInit(
+        true,
+        "../../../pagespeed_static/1.JiBnMqyl6S.gif"
+      );
+
+      //]]>
+    </script>
+  </head>
+  <body>
+    <div class="cs-preloader cs-white_bg cs-center">
+      <div class="cs-preloader_in">
+        <img src="assets/img/logo.png" alt="Logo" />
+      </div>
+    </div>
+    <header
+      class="cs-site_header cs-style1 cs-sticky-header cs-primary_color cs-white_bg"
+    >
+      <div class="cs-main_header">
+        <div class="container">
+          <div class="cs-main_header_in">
+            <div class="cs-main_header_left">
+              <a class="cs-site_branding cs-accent_color" href="/">
+                <img src="assets/img/logo.png" alt="Logo" />
+                <span>Cetirc</span>
+              </a>
+            </div>
+            <div class="cs-main_header_center">
+              <div class="cs-nav">
+                <ul class="cs-nav_list">
+                  <li>
+                    <a href="/index.html#home" class="cs-smoth_scroll">Home</a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0)" class="">Products</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Alice 1</a></li>
+                      <li><a href="#">Alice 2</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0)" class="">Company</a>
+                    <ul class="dropdown-menu">
+                      <li><a href="about.html">About</a></li>
+                      <li><a href="#">Partners</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#pricing" class="cs-smoth_scroll">Resources</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="cs-main_header_right">
+              <div class="banner-btn">
+                <a href="#" class="cs-btn"><span>Download App</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="" class="cs-gradient_bg_1 banner_about_us">
+      <div class="cs-height_100 cs-height_lg_70"></div>
+      <div class="container">
+        <h3>About Us</h3>
+      </div>
+    </section>
+
+    <section id="" class="">
+      <div class="cs-height_100 cs-height_lg_70"></div>
+      <div class="container">
+        <div class="row flex-column-reverse-lg">
+          <div
+            class="col-xl-6 wow fadeInLeft"
+            data-wow-duration="1s"
+            data-wow-delay="0.3s"
+          >
+            <div class="cs-left_full_width cs-space110">
+              <div class="cs-left_sided_img">
+                <img src="assets/img/about_img_1.png" alt="About" />
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6">
+            <div class="cs-height_0 cs-height_lg_40"></div>
+            <div class="cs-seciton_heading cs-style1">
+              <!-- <div class="cs-section_subtitle">About The POS</div> -->
+              <div class="cs-height_10 cs-height_lg_10"></div>
+              <h3 class="cs-section_title">
+                The Secure Way to Identify and Pay for Anything
+              </h3>
+            </div>
+            <div class="cs-height_20 cs-height_lg_20"></div>
+            <p>
+              Our highly secure palm vein biometrics technology helps millions
+              of people and businesses authenticate payments and access control
+              systems worldwide.
+            </p>
+            <div class="cs-height_15 cs-height_lg_15"></div>
+            <div class="cs-list_1_wrap">
+              <div class="banner-btn_get-started">
+                <a href="#" class="cs-btn"><span>Get Started for Free</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cs-height_100 cs-height_lg_70"></div>
+      <div class="cs-height_135 cs-height_lg_0"></div>
+    </section>
+
+    <section id="" class="cs-gradient_bg_1">
+      <div class="cs-height_100 cs-height_lg_70"></div>
+      <div class="container">
+        <div class="row flex-column-reverse-lg">
+          <div
+            class="col-xl-6 wow fadeInLeft"
+            data-wow-duration="1s"
+            data-wow-delay="0.3s"
+          >
+            <div class="cs-left_full_width cs-space110">
+              <div class="cs-left_sided_img">
+                <img src="assets/img/about_img_1.png" alt="About" />
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6">
+            <div class="cs-height_0 cs-height_lg_40"></div>
+            <div class="cs-seciton_heading cs-style1">
+              <!-- <div class="cs-section_subtitle">About The POS</div> -->
+              <div class="cs-height_10 cs-height_lg_10"></div>
+              <h3 class="cs-section_title">Who We Are</h3>
+            </div>
+            <div class="cs-height_20 cs-height_lg_20"></div>
+            <p>
+              We are a premier palm vein biometric solution committed to
+              improving how people use and interact with their identities for
+              various applications. Our technology uses palm vein patterns to
+              enhance security in various identity and authentication domains.
+              Follow us through this journey, learn about our mission, and
+              discover the products already making this change possible.
+            </p>
+            <div class="cs-height_15 cs-height_lg_15"></div>
+            <div class="cs-list_1_wrap"></div>
+          </div>
+        </div>
+      </div>
+      <div class="cs-height_100 cs-height_lg_70"></div>
+      <div class="cs-height_135 cs-height_lg_0"></div>
+    </section>
+
+    <section id="" class="">
+      <div class="cs-height_100 cs-height_lg_70"></div>
+      <div class="container">
+        <div class="row flex-column-reverse-lg">
+          <div
+            class="col-xl-6 wow fadeInLeft"
+            data-wow-duration="1s"
+            data-wow-delay="0.3s"
+          >
+            <div class="cs-left_full_width cs-space110">
+              <div class="cs-left_sided_img">
+                <img src="assets/img/about_img_1.png" alt="About" />
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6">
+            <div class="cs-height_0 cs-height_lg_40"></div>
+            <div class="cs-seciton_heading cs-style1">
+              <!-- <div class="cs-section_subtitle">About The POS</div> -->
+              <div class="cs-height_10 cs-height_lg_10"></div>
+              <h3 class="cs-section_title">Our Mission</h3>
+            </div>
+            <div class="cs-height_20 cs-height_lg_20"></div>
+            <p>
+              Our mission is straightforward: to provide secure, convenient, and
+              reliable palm vein biometric and authentication solutions that
+              empower individuals and organizations worldwide. We use the latest
+              technologies and tools to make this possible, streamlining the
+              process and improving user experiences across various industries
+              that need secure authentication methods.
+            </p>
+            <div class="cs-height_15 cs-height_lg_15"></div>
+            <div class="cs-list_1_wrap"></div>
+          </div>
+        </div>
+      </div>
+      <div class="cs-height_100 cs-height_lg_70"></div>
+      <div class="cs-height_135 cs-height_lg_0"></div>
+    </section>
+
+    <section id="" class="cs-gradient_bg_1">
+      <div class="cs-height_100 cs-height_lg_70"></div>
+      <div class="container">
+        <div class="row flex-column-reverse-lg">
+          <div
+            class="col-xl-6 wow fadeInLeft"
+            data-wow-duration="1s"
+            data-wow-delay="0.3s"
+          >
+            <div class="cs-left_full_width cs-space110">
+              <div class="cs-left_sided_img">
+                <img src="assets/img/about_img_1.png" alt="About" />
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6">
+            <div class="cs-height_0 cs-height_lg_40"></div>
+            <div class="cs-seciton_heading cs-style1">
+              <!-- <div class="cs-section_subtitle">About The POS</div> -->
+              <div class="cs-height_10 cs-height_lg_10"></div>
+              <h3 class="cs-section_title">
+                Our Commitment to Security and Data Privacy
+              </h3>
+            </div>
+            <div class="cs-height_20 cs-height_lg_20"></div>
+            <p>
+              At Cetirc, we understand the importance of security and data
+              privacy and how it affects our brand and those who trust us. This
+              is why we adhere to strict industry standards and best practices
+              to protect user data and palm vein signatures.
+            </p>
+            <p>
+              We are committed to maintaining solid integrity, transparency, and
+              accountability in all our operation aspects. Our products—Alice 1
+              and Alice 2—have robust encryption mechanisms for securely storing
+              our users’ palm signatures. We also perform security audits
+              regularly to reduce risks and vulnerabilities.
+            </p>
+            <div class="cs-height_15 cs-height_lg_15"></div>
+            <div class="cs-list_1_wrap"></div>
+          </div>
+        </div>
+      </div>
+      <div class="cs-height_100 cs-height_lg_70"></div>
+      <div class="cs-height_135 cs-height_lg_0"></div>
+    </section>
+
+    <section id="" class="">
+      <div class="cs-height_100 cs-height_lg_70"></div>
+      <div class="container">
+        <div class="row flex-column-reverse-lg">
+          <div
+            class="col-xl-6 wow fadeInLeft"
+            data-wow-duration="1s"
+            data-wow-delay="0.3s"
+          >
+            <div class="cs-left_full_width cs-space110">
+              <div class="cs-left_sided_img">
+                <img src="assets/img/about_img_1.png" alt="About" />
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6">
+            <div class="cs-height_0 cs-height_lg_40"></div>
+            <div class="cs-seciton_heading cs-style1">
+              <!-- <div class="cs-section_subtitle">About The POS</div> -->
+              <div class="cs-height_10 cs-height_lg_10"></div>
+              <h3 class="cs-section_title">Our Story</h3>
+            </div>
+            <div class="cs-height_20 cs-height_lg_20"></div>
+            <p>
+              Since launching, we've been steadfast in advancing its frontiers
+              in palm vein biometrics and authentication technology. We’ve not
+              slacked in our vision of developing advanced biometric solutions
+              that address the rising identification and digital signature
+              problems and inefficiencies. More importantly, we've made giant
+              strides in research, development, implementation, and partnership
+              to establish ourselves as a trusted leader in the biometrics
+              industry.
+            </p>
+            <div class="cs-height_15 cs-height_lg_15"></div>
+            <div class="cs-list_1_wrap"></div>
+          </div>
+        </div>
+      </div>
+      <div class="cs-height_100 cs-height_lg_70"></div>
+      <div class="cs-height_135 cs-height_lg_0"></div>
+    </section>
+
+    <section id="" class="cs-gradient_bg_1">
+      <div class="cs-height_100 cs-height_lg_70"></div>
+      <div class="container">
+        <div class="cs-seciton_heading cs-style1 text-center">
+          <div class="cs-height_10 cs-height_lg_10"></div>
+          <h3 class="cs-section_title">
+            A Palm Vein ID Service Committed to Providing <br />
+            Secure Digital Signatures Worldwide
+          </h3>
+        </div>
+        <div class="cs-height_50 cs-height_lg_40"></div>
+        <div class="row">
+          <div class="col-md-6 col-xl-6">
+            <div class="cs-height_25 cs-height_lg_0"></div>
+            <div class="cs-iconbox cs-style1">
+              <div class="cs-iconbox_icon cs-center">
+                <img
+                  alt="Icon"
+                  src="assets/img/icons/icon_box_1.svg"
+                  onload="pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
+                  onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
+                />
+              </div>
+              <div class="cs-iconbox_in">
+                <div class="cs-iconbox_number cs-primary_font">01</div>
+                <h3 class="cs-iconbox_title">Alice 1</h3>
+                <p class="MN7689">Register, Authenticate, Pay.</p>
+                <div class="cs-iconbox_subtitle" style="margin-bottom: 10px">
+                  Available for use across all Cetirc partners, users, and
+                  merchants worldwide.
+                </div>
+              </div>
+            </div>
+            <div class="cs-height_25 cs-height_lg_25"></div>
+          </div>
+          <div class="col-md-6 col-xl-6">
+            <div class="cs-height_25 cs-height_lg_0"></div>
+            <div class="cs-iconbox cs-style1">
+              <div class="cs-iconbox_icon cs-center">
+                <img
+                  alt="Icon"
+                  src="assets/img/icons/icon_box_1.svg"
+                  onload="pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
+                  onerror="this.onerror=null;pagespeed.lazyLoadImages.loadIfVisibleAndMaybeBeacon(this);"
+                />
+              </div>
+              <div class="cs-iconbox_in">
+                <div class="cs-iconbox_number cs-primary_font">02</div>
+                <h3 class="cs-iconbox_title">Alice 2</h3>
+                <p class="MN7689">Access Control, Authenticate, Identify.</p>
+                <div class="cs-iconbox_subtitle" style="margin-bottom: 10px">
+                  Available for use across Cetirc partners and organizations
+                  worldwide.
+                </div>
+              </div>
+            </div>
+            <div class="cs-height_25 cs-height_lg_25"></div>
+          </div>
+        </div>
+      </div>
+      <div class="cs-height_100 cs-height_lg_70"></div>
+      <div class="cs-height_135 cs-height_lg_0"></div>
+    </section>
+
+    <section id="" class="">
+      <div class="cs-height_100 cs-height_lg_70"></div>
+      <div class="container">
+        <div class="row flex-column-reverse-lg">
+          <div
+            class="col-xl-6 wow fadeInLeft"
+            data-wow-duration="1s"
+            data-wow-delay="0.3s"
+          >
+            <div class="cs-left_full_width cs-space110">
+              <div class="cs-left_sided_img">
+                <img src="assets/img/about_img_1.png" alt="About" />
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6">
+            <div class="cs-height_0 cs-height_lg_40"></div>
+            <div class="cs-seciton_heading cs-style1">
+              <!-- <div class="cs-section_subtitle">About The POS</div> -->
+              <div class="cs-height_10 cs-height_lg_10"></div>
+              <h3 class="cs-section_title">Contact Us</h3>
+            </div>
+            <div class="cs-height_20 cs-height_lg_20"></div>
+            <p>
+              Ready to experience the future of biometric authentication with
+              Cetirc? Contact us today to learn more about our products and
+              services.
+            </p>
+            <div class="cs-height_15 cs-height_lg_15"></div>
+            <div class="cs-list_1_wrap"></div>
+          </div>
+        </div>
+      </div>
+      <div class="cs-height_100 cs-height_lg_70"></div>
+      <div class="cs-height_135 cs-height_lg_0"></div>
+    </section>
+
+    <section id="" class="cs-gradient_bg_1">
+      <div class="cs-height_100 cs-height_lg_70"></div>
+      <div class="container">
+        <div class="cs-seciton_heading cs-style1 text-center">
+          <div class="cs-height_10 cs-height_lg_10"></div>
+          <h3 class="cs-section_title">Cetirc in the News</h3>
+        </div>
+        <p class="s-subtitle">
+          Get Cetirc newsletters, annual reports, blogs, and articles.
+        </p>
+        <div class="cs-height_20 cs-height_lg_20"></div>
+        <div class="subscribe__form">
+          <form class="cs-newsletter col-5">
+            <input
+              type="text"
+              class="cs-form_field"
+              placeholder="Enter your email"
+            />
+            <div class="cs-height_10 cs-height_lg_10"></div>
+            <button type="submit" class="cs-btn cs-size_md w-100">
+              <span>Subscribe</span>
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="cs-height_100 cs-height_lg_70"></div>
+      <div class="cs-height_135 cs-height_lg_0"></div>
+    </section>
+
+    <footer class="cs-footer">
+      <div class="cs-height_75 cs-height_lg_70"></div>
+      <div class="container">
+        <div class="footer_inner">
+          <div class="left_footer">
+            <div class="cs-footer_item">
+              <div class="cs-footer_widget_text">
+                <div class="cs-main_header_left">
+                  <a class="cs-site_branding cs-accent_color" href="/">
+                    <img src="assets/img/logo.png" alt="Logo" />
+                    <span class="f-logo-text">Cetirc</span>
+                  </a>
+                </div>
+                <p style="color: #ffffff; font-weight: bold">
+                  Designed and managed with love by the Cetirc team
+                </p>
+              </div>
+              <div class="cs-height_30 cs-height_lg_30"></div>
+              <div class="cs-social_btns cs-style1">
+                © 2024 Cetirc. All rights reserved.
+              </div>
+            </div>
+          </div>
+          <div class="right_footer">
+            <div class="footer_link">
+              <div class="cs-footer_item widget_nav_menu">
+                <h2 class="cs-widget_title">Cetirc</h2>
+                <ul class="menu">
+                  <li><a href="#">products</a></li>
+                  <li><a href="#">How It Works</a></li>
+                  <li><a href="#">Get Help</a></li>
+                  <li><a href="#">Blog</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer_link">
+              <div class="cs-footer_item widget_nav_menu">
+                <h2 class="cs-widget_title">Company</h2>
+                <ul class="menu">
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">Terms of Use</a></li>
+                  <li><a href="#">Data Privacy Disclosure</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer_link">
+              <div class="cs-footer_item widget_nav_menu app-google">
+                <img
+                  style="width: 150px; margin-bottom: 8px; border-radius: 8px"
+                  src="assets/img/app-store.PNG"
+                  alt=""
+                />
+                <img
+                  style="width: 150px; border-radius: 8px"
+                  src="assets/img/goole-play.PNG"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cs-height_40 cs-height_lg_30"></div>
+    </footer>
+
+    <script type="text/javascript" data-pagespeed-no-defer>
+      pagespeed.lazyLoadImages.overrideAttributeFunctions();
+    </script>
+    <script src="assets/js/plugins/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/plugins/jquery.slick.min.js"></script>
+    <script src="assets/js/plugins/jquery.counter.min.js"></script>
+    <script src="assets/js/plugins/wow.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+
+  <!-- Mirrored from thememarch.com/demo/html/posing/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 01 May 2024 10:59:00 GMT -->
+</html>

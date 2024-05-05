@@ -120,3 +120,19 @@
         width: 100%;
     }
 }
+
+/* About us page  */
+.banner_about_us{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.cs-iconbox_in .MN7689{
+    font-weight: 600;
+}
+
+.subscribe__form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
