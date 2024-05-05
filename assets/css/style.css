@@ -2591,6 +2591,12 @@ hr {
   height: 100%;
 }
 
+@media screen and (max-width: 1199px) {
+  .cs-site_header.cs-style1 .cs-main_header_right {
+    margin-right: 50px;
+  }
+}
+
 .cs-toolbox_icon_btn {
   cursor: pointer;
 }
@@ -2690,7 +2696,7 @@ hr {
   background-color: #fff;
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 767px) {
   .cs-main_header .container {
     max-width: 100%;
   }
