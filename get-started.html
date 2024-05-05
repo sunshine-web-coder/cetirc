@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="assets/css/plugins/animate.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/style2.css" />
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <script data-pagespeed-no-defer>
       //<![CDATA[
       (function () {
@@ -225,7 +226,7 @@
             <div class="cs-main_header_center">
               <div class="cs-nav">
                 <ul class="cs-nav_list">
-                  <li><a href="#home" class="cs-smoth_scroll">Home</a></li>
+                  <li><a href="/index.html#home" class="cs-smoth_scroll">Home</a></li>
                   <li>
                     <a href="javascript:void(0)" class="">Products</a>
                     <ul class="dropdown-menu">
@@ -780,37 +781,59 @@
       <div class="cs-height_75 cs-height_lg_70"></div>
     </section>
 
-    <!-- <section id="" class="">
+    <section id="" class="">
       <div class="cs-height_100 cs-height_lg_70"></div>
       <div class="container">
-        <div class="row align-items-center flex-column-reverse-lg">
+        <div class="feedbackform">
           <div
-            class="col-xl-6 wow fadeInLeft"
+            class="feedbackform_left wow fadeInLeft"
             data-wow-duration="1s"
             data-wow-delay="0.3s"
           >
-            <div class="cs-left_full_width cs-space110">
-              <div class="cs-left_sided_img">
-                <img src="assets/img/about_img_1.png" alt="About" />
+            <h3>Technical Support</h3>
+            <div class="feedbackform_inner_left border">
+              <div class="img090">
+                <img src="assets/img/feedbackformimg.PNG" alt="" />
               </div>
+              <h3>Have a question?</h3>
+              <p>Paid users can log in to access email and chat support.</p>
+              <a href="">Log In</a>
             </div>
           </div>
-          <div class="col-xl-6">
-            <div class="cs-height_0 cs-height_lg_40"></div>
-            <form action="">
-              <div>
-                <label for=""></label>
-                <input type="radio" name="radio1">
-                <input type="radio" name="radio1">
+          <div class="feedbackform_right wow fadeInRight"
+          data-wow-duration="1s"
+          data-wow-delay="0.3s"
+          >
+            <form action="?" method="POST">
+              <h3>Was this article helpful?</h3>
+              <div class="">
+                <div>
+                  <input type="radio" id="yes" name="feedback" />
+                  <label for="yes">Yes</label>
+                </div>
+                <div>
+                  <input type="radio" id="no" name="feedback" />
+                  <label for="no">No</label>
+                </div>
               </div>
+              <h3>Anything else we can do to improve our site</h3>
+              <div class="">
+                <textarea name="" id="" class="message border"></textarea>
+              </div>
+              <div>
+                <div
+                  class="g-recaptcha"
+                  data-sitekey="6LcnY9EpAAAAABkbvv3H_nnj--aeGkECTzdvzwZv"
+                ></div>
+              </div>
+              <button type="submit" class="border">Submit Feedback</button>
             </form>
-            <div class="cs-height_15 cs-height_lg_15"></div>
           </div>
         </div>
       </div>
       <div class="cs-height_100 cs-height_lg_70"></div>
       <div class="cs-height_135 cs-height_lg_0"></div>
-    </section> -->
+    </section>
 
     <footer class="cs-footer">
       <div class="cs-height_75 cs-height_lg_70"></div>
@@ -873,27 +896,6 @@
               </div>
             </div>
           </div>
-          <!-- <div class="col-lg-3 col-md-6">
-            <div class="cs-footer_item widget_nav_menu">
-              <h2 class="cs-widget_title">Subscribe us</h2>
-              <form class="cs-newsletter">
-                <div class="cs-newsletter_text">
-                  Get Business news, tip and solutions to your problems from our
-                  experts.
-                </div>
-                <div class="cs-height_20 cs-height_lg_20"></div>
-                <input
-                  type="text"
-                  class="cs-form_field"
-                  placeholder="Enter your email"
-                />
-                <div class="cs-height_10 cs-height_lg_10"></div>
-                <button class="cs-btn cs-size_md w-100">
-                  <span>Subscribe</span>
-                </button>
-              </form>
-            </div>
-          </div> -->
         </div>
       </div>
       <div class="cs-height_40 cs-height_lg_30"></div>
