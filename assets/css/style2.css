@@ -135,3 +135,16 @@
     max-width: 500px;
     margin: auto;
 }
+
+/* get help */
+.get_help{
+    max-width: 700px;
+}
+.get_help h4.cs-section_title_2{
+    font-weight: 500;
+}
+.get_help h5.cs-section_title_3{
+    font-weight: 500;
+    font-size: 20px;
+    color: #696969;
+}
