@@ -144,7 +144,8 @@
 
 /* get help */
 .get_help{
-    max-width: 700px;
+    max-width: 1000px;
+    margin: auto;
 }
 .get_help h4.cs-section_title_2{
     font-weight: 500;
