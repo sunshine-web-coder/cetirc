@@ -127,6 +127,12 @@
     padding-bottom: 20px;
 }
 
+@media screen and (max-width: 1199px) {
+    .banner_about_us{
+        padding-top: 45px;
+    }
+}
+
 .cs-iconbox_in .MN7689{
     font-weight: 600;
 }

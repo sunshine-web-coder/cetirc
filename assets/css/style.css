@@ -3363,11 +3363,10 @@ hr {
   padding-left: 25px;
 }
 
-.cs-hero.cs-style1 .cs-hero_img {
-}
-
 .cs-hero.cs-style1 .cs-hero_img img {
   max-height: 100%;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
 
 .cs-hero.cs-style1 .cs-shape {
