@@ -156,10 +156,58 @@
     color: #696969;
 }
 
-.menu .rounded-circle{
-    padding: 6px 8px 6px 9px;
+.menu .social_link{
+    display: block;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ffffff;
+    border-radius: 100%;
 }
-.menu .rounded-circle.instagram{
-    padding-left: 10px;
-    padding-right: 10px;
+
+@media screen and (max-width: 450px) {
+    .menu .social_link{
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+    }
+}
+
+.contact-us{
+    border-radius: 8px;
+    background-color: #211C1A;
+    padding: 30px;
+
+}
+
+.contact-us .cs-section_title{
+    color: #ffffff;
+}
+
+.contact-us-form .form-control{
+    height: 50px;
+}
+
+.contact-us-form .form-control.message-info{
+    min-height: 100px;
+}
+
+.contact-us-form .btn{
+    width: 150px;
+    height: 50px;
+    background-color: #000000;
+    border-color: #000000;
+    margin-top: 10px;
+}
+
+.form-group small{
+    padding-top: 2px;
+    color: #e74c3c;
+}
+
+.contact-us-form #email{
+    background-color: #ffffff;
+    border-radius: 0.375rem;
 }
